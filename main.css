@@ -1,0 +1,49 @@
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 4em;
+}
+
+a {
+    font-size: 1.5em;
+    margin: 10px;
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#menu {
+    list-style: none;
+}
+
+#menu li {
+    display: inline;
+    padding: 0 10px;
+    border-left: solid 1px white;
+}
+
+#menu li:first-child {
+    border-left: none;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
