@@ -51,11 +51,12 @@ section#contact {
     color: rgb(51, 51, 51);
 }
 
-section h1 {
+h1 {
     font-size: 4rem;
+    overflow: hidden;
 }
 
-section h2 {
+h2 {
     font-size: 3rem;
 }
 
