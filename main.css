@@ -37,14 +37,13 @@ section {
     text-align: center;
     min-height: 100vh;
     /* Scroll Snap */
+    scroll-snap-align: center;
 }
 
 section#about {
     text-align: justify;
     background-color: rgb(51, 51, 51);
     color: rgb(207, 207, 207);
-    padding-bottom: 30px;
-    padding-top: 30px;
 }
 
 section#contact {
@@ -131,6 +130,7 @@ p.responsive {
     max-width: 600px;
     width: 90%;
     height: auto;
+    margin-bottom: 20px;
 }
 
 .distort {
@@ -196,20 +196,4 @@ p.responsive {
     62% {
         transform: translate(-22px, 5px) skew(21deg);
     }
-}
-
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-}
-
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-
-.sticky+.content {
-    padding-top: 102px;
 }
