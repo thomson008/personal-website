@@ -123,14 +123,22 @@ li a:hover {
     width: 100%;
 }
 
-.comment {
-    color: rgb(0, 119, 0);
-    font-style: italic;
-}
-
 .employer {
     display: flex;
     justify-content: space-between;
+}
+
+.employer p,
+.comment {
+    font-style: italic;
+}
+
+.comment {
+    font-size: 15px;
+}
+
+.post {
+    color: orange;
 }
 
 @media screen and (min-width: 751px) {
@@ -166,10 +174,13 @@ img {
     height: auto;
 }
 
-p.responsive {
+#description {
     max-width: 800px;
     width: 90%;
     height: auto;
+}
+
+#description p {
     margin-bottom: 20px;
 }
 
