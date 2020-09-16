@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <section id="home">
-            <h1 class="distort" title="Tomek H."><a id="title" href="#about">Tomek H.</a></h1>
+            <h1 class="distort" title="Tomek H.">Tomek H.</h1>
             <ul class="menu">
                 <li><a href="#about">ABOUT ME</a></li>
                 <li><a href="#resume">RESUME</a></li>
@@ -25,7 +25,7 @@
         <section id="about">
             <h2 class="distort" title="About me">About me</h2>
             <img src="pobrane.png" class="responsive" />
-            <p class="lead">Hi, my name is Tomek.</p>
+            <p id="intro">Hi, my name is Tomek.</p>
             <p class="responsive">I am a 4th year Electronics and Computer Science student at <a href="https://www.ed.ac.uk/" class="link"> The University of Edinburgh</a>. I come from Poland but most of the time I am in Edinburgh, Scotland. Currently I am working as a Software
                 Development Engineer intern at Amazon. A few times per week, I also lead lab and tutorial sessions in courses such as Foundations of Data Science or Object Oriented Programming for younger students at my school.</p>
             <p class="responsive">My main scientific interests include natural language processing, speech recognition and digital signal processing.</p>
@@ -39,44 +39,67 @@
             <h2 class="distort" title="Resume">Resume</h2>
             <div class="cv_section">
                 <p class="lead">Education</p>
-                <a href="https://www.ed.ac.uk/" class="link">The University of Edinburgh</a>
-                <p>MEng Electronics and Computer Science [2017 - 2022]</p>
-                <br>
-                <a href="https://www.kopernik.edu.pl/" class="link" target="_blank">Copernicus Bilingual High School in Warsaw</a>
-                <p>Higher level: Mathematics, Physics, English [2014 - 2017]</p>
+                <div class="position">
+                    <div class="employer">
+                        <a href="https://www.ed.ac.uk/" class="link">The University of Edinburgh</a>
+                        <p>[September 2017 - now (graduation in 2022)]</p>
+                    </div>
+                    <p>MEng Electronics and Computer Science</p>
+                </div>
+                <div class="position">
+                    <div class="employer">
+                        <a href="https://www.kopernik.edu.pl/" class="link" target="_blank">Copernicus Bilingual High School in Warsaw</a>
+                        <p>[September 2014 - May 2017]</p>
+                    </div>
+                    <p>Higher level: Mathematics, Physics, English</p>
+                </div>
             </div>
-            <br>
             <div class="cv_section">
                 <p class="lead">Relevant courses</p>
-                <p>Electronics: Digital System Design, Signals and Communication Systems, Microelectronics, Engineering Software</p>
-                <p>Computer Science: Computer Systems, Software Testing, Applied Machine Learning, Computer Security, Algorithms and Data Structures, Object-Oriented Programming</p>
+                <div class="position">
+                    <p>Electronics: Digital System Design, Signals and Communication Systems, Microelectronics, Engineering Software</p>
+                </div>
+                <div class="position">
+                    <p>Computer Science: Computer Systems, Software Testing, Applied Machine Learning, Computer Security, Algorithms and Data Structures, Object-Oriented Programming</p>
+                </div>
             </div>
-            <br>
             <div class="cv_section">
                 <p class="lead">Experience</p>
-                <a href="http://www.gdansk-amazon.com/" class="link" target="_blank">Amazon Development Center Poland</a>
-                <p class="comment">/** <br> * Worked on a CLI of a service for deploying and scaling NLU models for Alexa<br> * Currently member of Alexa AI - Natural Understanding team as a part-time working student<br>*/
-                </p>
-                <p>Software Development Engineer Intern [June 2020 - now]</p>
-                <p>Gdańsk, Poland</p>
-                <br>
-                <a href="https://www.ed.ac.uk/" class="link" target="_blank">The University of Edinburgh</a>
-                <p>Tutor / Lab Demonstrator [September 2019 - now]</p>
-                <p>Edinburgh, United Kingdom</p>
-                <br>
-                <a href="http://www.citibank.com/emeaservicecenter/poland/csc-poland.htm" class="link" target="_blank">Citibank Europe</a>
-                <p>IT and Data Analysis Intern [July 2019 - September 2019]</p>
-                <p>Warsaw, Poland</p>
-                <br>
-                <a href="https://www.lionbridge.com/" class="link" target="_blank">Lionbridge Poland</a>
-                <p>Software QA Tester [August 2018 - September 2018]</p>
-                <p>Warsaw, Poland</p>
-                <br>
-                <a class="link">Immunity Systems</a>
-                <p>PCB Designer [June 2018 - August 2018]</p>
-                <p>Warsaw, Poland</p>
+                <div class="position">
+                    <div class="employer">
+                        <a href="http://www.gdansk-amazon.com/" class="link" target="_blank">Amazon Development Center Poland</a>
+                        <p>[June 2020 - now]</p>
+                    </div>
+                    <p class="comment">/** <br> * Worked on a CLI of a service for deploying and scaling NLU models for Alexa<br> * Currently member of Alexa AI - Natural Understanding team as a part-time working * student<br>*/
+                    </p>
+                    <p>Software Development Engineer Intern</p>
+                    <p>Gdańsk, Poland</p>
+                </div>
+                <div class="position">
+                    <div class="employer">
+                        <a href="https://www.ed.ac.uk/" class="link" target="_blank">The University of Edinburgh</a>
+                        <p> [September 2019 - now]</p>
+                    </div>
+                    <p>Tutor / Lab Demonstrator</p>
+                    <p>Edinburgh, United Kingdom</p>
+                </div>
+                <div class="position">
+                    <div class="employer">
+                        <a href="http://www.citibank.com/emeaservicecenter/poland/csc-poland.htm" class="link" target="_blank">Citibank Europe</a>
+                        <p> [July 2019 - September 2019]</p>
+                    </div>
+                    <p>IT and Data Analysis Intern</p>
+                    <p>Warsaw, Poland</p>
+                </div>
+                <div class="position">
+                    <div class="employer">
+                        <a href="https://www.lionbridge.com/" class="link" target="_blank">Lionbridge Poland</a>
+                        <p>[August 2018 - September 2018]</p>
+                    </div>
+                    <p>Software QA Tester</p>
+                    <p>Warsaw, Poland</p>
+                </div>
             </div>
-            <br>
             <div class="cv_section">
                 <p class="lead">Technical skills</p>
                 <p>Languages: Java, Kotlin, Python, C, Matlab, JavaScript</p>
