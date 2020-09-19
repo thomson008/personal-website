@@ -47,7 +47,6 @@ section {
     justify-content: center;
     text-align: center;
     min-height: 100vh;
-    scroll-snap-align: start;
 }
 
 .cv_section {
